@@ -1,0 +1,15 @@
+{
+	"plugins": [
+		[
+			"module-resolver",
+			{
+				"cwd": "babelrc",
+				"extensions": [".ts", ".tsx", ".json", ".png", ".jpg"],
+				"root": ["./"],
+				"alias": {
+				  "^src/(.+)": "./src/\\1"
+				}
+			}
+		]
+	]
+}
